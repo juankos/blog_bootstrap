@@ -1,0 +1,71 @@
+/*Código CSS para alinear elementos del header*/
+ul {
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+#btnsocial {
+    float: right;
+    display: inline-block;
+	margin-top: 130px;
+}
+/*Código para dar color y bordes al header y a los botones del menú*/
+header {
+    border: solid 1px #6a1b9a;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.btn {
+    background-color: #f3e5f5;
+    border: 2px solid #6a1b9a;
+    border-radius: 10px;
+}
+/* Propiedades del container*/
+.container {
+    margin-top: 5px;
+}
+
+h2 {
+    color: #6a1b9a;
+}
+
+img {
+    margin-left: 15px;
+}
+
+.list-group {
+    margin-top: 10px;
+}
+
+/*Código para hacer la web responsiva*/
+
+@media screen and (max-width: 960px) {
+    #wrapper {
+        width: auto;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #wrapper {
+        width: auto;
+        margin: 0 auto;
+    }
+}
+li {
+    float: right;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    #wrapper {
+        width: auto;
+        margin: 0 auto;
+    }
+#btnsocial {
+        float: right;
+        margin-top: auto;
+        margin-bottom: 10px;
+    }
+}
