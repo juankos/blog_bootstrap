@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/misestilos.css">
+	<title>Blog de música</title>
+</head>
+
+<body>
+
+<!-- Datos del encabezado -->
+	<header class="container" style="background-color: #f3e5f5">
+		<div class="row" id="wrapper">
+			<div class="col-md-6">
+				<img src="img/logo.png" alt="logo">
+			</div>
+<!-- Para íconos de las redes sociales -->
+			<div class="col-med-6" id="btnsocial">
+				<ul>
+					<li><a title="Youtube" href="#"><img src="img/youtube.png" alt="Youtube"/></a></li>
+					<li><a title="Facebook" href="#"><img src="img/facebook.png" alt="Facebook"/></a></li>
+					<li><a title="Instagram" href="#"><img src="img/instagram.png" alt="Instagram"/></a></li>
+					<li><a title="Pinterest" href="#"><img src="img/pinterest.png" alt="Pinterest"/></a></li>
+					<li><a title="Twitter" href="#"><img src="img/twitter.png" alt="Twitter"/></a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+<!-- Código del menú -->
+	<div class="container">
+		<div class="row" id="wrapper">
+			<div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+				<ul class="nav nav-pills nav-justified">
+					<li><a href="#" class="btn btn-default">Inicio</a></li>
+					<li><a href="#" class="btn btn-default">Artistas</a></li>
+					<li><a href="#" class="btn btn-default">Grupos</a></li>
+					<li><a href="#" class="btn btn-default">Top 10</a></li>
+					<li><a href="#" class="btn btn-default">Letras</a></li>
+					<li><a href="#" class="btn btn-default">Acordes</a></li>
+				</ul>
+			</div>
+		</div>
+
+<!-- Código para las entradas al blog -->
+		<section>
+			<div class="row" id="wrapper">
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-7">
+							<h2>La música cerreña</h2>
+							<p class="lead">Cerro de Pasco se encuentra a 4380 msnm, en la parte central del Perú, tiene por historia la actividad minera, la misma que ha cincelado su cultura musical, muy propia y con sus propias particularidades, fruto de la influencia que tuvo, por haber
+								recibido en su seno, a personas de muchas nacionalidades, que llegaron atraídos por la fiebre de los minerales en los dos siglos pasados. La música cerreña, encarna el sufrimiento del minero en sus labores diarias, así como su cotidianidad y cómo
+								trata asuntos como el amor; escuchemos un huayno cerreño, donde la fuga está entonada en el idioma quechua muy peruano.</p>
+						</div>
+						<div class="col-md-5">
+							<img src="img/estampas.jpg" alt="responsive-image" class="img-thumbnail rounded" title="Conjunto Estampas Andinas de Milpo"></div>
+						<div></div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<audio controls>
+								<source src="audio/cp.mp3" type="audio/mp3" />
+								<source src="audio/cp.mp3" type="audio/mp3" />
+								<a href="audio/cp.mp3">Corazón perdido</a>
+							</audio>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-1 hidden-xs">
+									<img src="img/personas.png" alt="personas">
+								</div>
+
+								<div class="col-md-11">
+									<div class="form-group">
+										<textarea class="form-control" id="Textarea1" placeholder="Comentario..." rows="1"></textarea>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row" id="wrapper">
+						<div class="col-md-5">
+							<img src="img/lucho.jpg" alt="responsive-image" class="img-thumbnail" title="Lucho Quequezana">
+						</div>
+						<div class="col-md-7">
+							<h2>La música de Lucho Quequezana</h2>
+							<p class="lead">De padre cusqueño y madre huanuqueña, a los 11 años de edad, él y toda su familia, migraron a Huancayo debido a la enfermedad que sufría su hermano mayor, donde residió por algunos años y fue alli done tuvo su contacto iniciador en la música. En
+								la actualidad vive en el distrito limeño de Barranco.​ Desde sus inicios se dedica a cultivar la música tradicional andina, ejecutando más de 25 instrumentos, tanto de cuerda, como percusión y vientos.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<audio controls>
+								<source src="audio/pista1.mp3" type="audio/mp3" />
+								<source src="audio/pista1.mp3" type="audio/mp3" />
+								<a href="audio/pista1.mp3">Gorrioncito</a>
+							</audio>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-1 hidden-xs">
+									<img src="img/personas.png" alt="personas">
+								</div>
+								<div class="col-md-11">
+									<textarea class="form-control" id="Textarea1" placeholder="Comentario..." rows="1"></textarea>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+<!-- Código para la columna de contenidos del buscador -->
+				<div class="col-md-4">
+					<br>
+					<div class="row" id="wrapper">
+						<div class="col-md-12">
+							<div class="row-fluid hidden-xs">
+								<form action="./" method="post">
+									<div class="input-group" id="div-src">
+										<input type="text" id="input-src" class="form-control" placeholder="Busca tus temas favoritos...">
+										<span class="input-group-btn" id="btn-src">
+									<button class="btn btn-default" type="button">
+										<i class="glyphicon glyphicon-search"></i>
+									</button>
+								</span>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="list-group hidden-xs">
+								<a href="#" class="list-group-item active">Sugerencias para buscar:</a>
+								<a href="#" class="list-group-item list-group-item-action">Baladas en español</a>
+								<a href="#" class="list-group-item list-group-item-action">Clásica</a>
+								<a href="#" class="list-group-item list-group-item-action">Boleros</a>
+								<a href="#" class="list-group-item list-group-item-action">Folclore</a>
+								<a href="#" class="list-group-item list-group-item-action">Cumbia</a>
+								<a href="#" class="list-group-item list-group-item-action">Latinoamericana</a>
+								<a href="#" class="list-group-item list-group-item-action">Jazz</a>
+								<a href="#" class="list-group-item list-group-item-action">Cristiana</a>
+								<a href="#" class="list-group-item list-group-item-action">Romántica</a>
+								<a href="#" class="list-group-item list-group-item-action">Instrumental</a>
+								<a href="#" class="list-group-item list-group-item-action">Trova</a>
+								<a href="#" class="list-group-item list-group-item-action">Celta</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</body>
+</html>
